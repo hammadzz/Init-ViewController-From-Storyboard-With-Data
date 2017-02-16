@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B18A2CE1E565E9A0094D483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B18A2CD1E565E9A0094D483 /* AppDelegate.swift */; };
-		5B18A2D31E565E9A0094D483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B18A2D11E565E9A0094D483 /* Main.storyboard */; };
-		5B18A2D51E565E9A0094D483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B18A2D41E565E9A0094D483 /* Assets.xcassets */; };
-		5B18A2D81E565E9A0094D483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B18A2D61E565E9A0094D483 /* LaunchScreen.storyboard */; };
-		5B18A2E01E565F260094D483 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B18A2DF1E565F260094D483 /* ViewControllerA.swift */; };
-		5B18A2E41E56694F0094D483 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B18A2E31E56694F0094D483 /* ViewControllerB.swift */; };
+		5B89D1771E56706300A4C56A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B89D1711E56706300A4C56A /* AppDelegate.swift */; };
+		5B89D1781E56706300A4C56A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B89D1721E56706300A4C56A /* Assets.xcassets */; };
+		5B89D17A1E56706300A4C56A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B89D1741E56706300A4C56A /* Info.plist */; };
+		5B89D17B1E56706300A4C56A /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B89D1751E56706300A4C56A /* ViewControllerA.swift */; };
+		5B89D17C1E56706300A4C56A /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B89D1761E56706300A4C56A /* ViewControllerB.swift */; };
+		5B89D1811E56709700A4C56A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B89D17D1E56709700A4C56A /* LaunchScreen.storyboard */; };
+		5B89D1821E56709700A4C56A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B89D17F1E56709700A4C56A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B18A2CA1E565E9A0094D483 /* Storyboard-Init-With-Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storyboard-Init-With-Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B18A2CD1E565E9A0094D483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B18A2D21E565E9A0094D483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5B18A2D41E565E9A0094D483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5B18A2D71E565E9A0094D483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5B18A2D91E565E9A0094D483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B18A2DF1E565F260094D483 /* ViewControllerA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
-		5B18A2E31E56694F0094D483 /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		5B18A2CA1E565E9A0094D483 /* Storyboard-Instantiate-With-Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storyboard-Instantiate-With-Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B89D1711E56706300A4C56A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Storyboard-Instantiate-With-Data/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		5B89D1721E56706300A4C56A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Storyboard-Instantiate-With-Data/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		5B89D1741E56706300A4C56A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Storyboard-Instantiate-With-Data/Info.plist"; sourceTree = SOURCE_ROOT; };
+		5B89D1751E56706300A4C56A /* ViewControllerA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerA.swift; path = "Storyboard-Instantiate-With-Data/ViewControllerA.swift"; sourceTree = SOURCE_ROOT; };
+		5B89D1761E56706300A4C56A /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerB.swift; path = "Storyboard-Instantiate-With-Data/ViewControllerB.swift"; sourceTree = SOURCE_ROOT; };
+		5B89D17E1E56709700A4C56A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Storyboard-Instantiate-With-Data/Base.lproj/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		5B89D1801E56709700A4C56A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Storyboard-Instantiate-With-Data/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +41,7 @@
 		5B18A2C11E565E9A0094D483 = {
 			isa = PBXGroup;
 			children = (
-				5B18A2CC1E565E9A0094D483 /* Storyboard-Init-With-Data */,
+				5B18A2CC1E565E9A0094D483 /* Storyboard-Instantiate-With-Data */,
 				5B18A2CB1E565E9A0094D483 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +49,32 @@
 		5B18A2CB1E565E9A0094D483 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B18A2CA1E565E9A0094D483 /* Storyboard-Init-With-Data.app */,
+				5B18A2CA1E565E9A0094D483 /* Storyboard-Instantiate-With-Data.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B18A2CC1E565E9A0094D483 /* Storyboard-Init-With-Data */ = {
+		5B18A2CC1E565E9A0094D483 /* Storyboard-Instantiate-With-Data */ = {
 			isa = PBXGroup;
 			children = (
-				5B18A2DF1E565F260094D483 /* ViewControllerA.swift */,
-				5B18A2E31E56694F0094D483 /* ViewControllerB.swift */,
-				5B18A2CD1E565E9A0094D483 /* AppDelegate.swift */,
-				5B18A2D11E565E9A0094D483 /* Main.storyboard */,
-				5B18A2D41E565E9A0094D483 /* Assets.xcassets */,
-				5B18A2D61E565E9A0094D483 /* LaunchScreen.storyboard */,
-				5B18A2D91E565E9A0094D483 /* Info.plist */,
+				5B89D1711E56706300A4C56A /* AppDelegate.swift */,
+				5B89D17F1E56709700A4C56A /* Main.storyboard */,
+				5B89D1751E56706300A4C56A /* ViewControllerA.swift */,
+				5B89D1761E56706300A4C56A /* ViewControllerB.swift */,
+				5B89D17D1E56709700A4C56A /* LaunchScreen.storyboard */,
+				5B89D1721E56706300A4C56A /* Assets.xcassets */,
+				5B89D1741E56706300A4C56A /* Info.plist */,
 			);
+			name = "Storyboard-Instantiate-With-Data";
 			path = "Storyboard-Init-With-Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B18A2C91E565E9A0094D483 /* Storyboard-Init-With-Data */ = {
+		5B18A2C91E565E9A0094D483 /* Storyboard-Instantiate-With-Data */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B18A2DC1E565E9A0094D483 /* Build configuration list for PBXNativeTarget "Storyboard-Init-With-Data" */;
+			buildConfigurationList = 5B18A2DC1E565E9A0094D483 /* Build configuration list for PBXNativeTarget "Storyboard-Instantiate-With-Data" */;
 			buildPhases = (
 				5B18A2C61E565E9A0094D483 /* Sources */,
 				5B18A2C71E565E9A0094D483 /* Frameworks */,
@@ -82,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = "Storyboard-Init-With-Data";
+			name = "Storyboard-Instantiate-With-Data";
 			productName = "Storyboard-Init-With-Data";
-			productReference = 5B18A2CA1E565E9A0094D483 /* Storyboard-Init-With-Data.app */;
+			productReference = 5B18A2CA1E565E9A0094D483 /* Storyboard-Instantiate-With-Data.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B18A2C51E565E9A0094D483 /* Build configuration list for PBXProject "Storyboard-Init-With-Data" */;
+			buildConfigurationList = 5B18A2C51E565E9A0094D483 /* Build configuration list for PBXProject "Storyboard-Instantiate-With-Data" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B18A2C91E565E9A0094D483 /* Storyboard-Init-With-Data */,
+				5B18A2C91E565E9A0094D483 /* Storyboard-Instantiate-With-Data */,
 			);
 		};
 /* End PBXProject section */
@@ -127,9 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B18A2D81E565E9A0094D483 /* LaunchScreen.storyboard in Resources */,
-				5B18A2D51E565E9A0094D483 /* Assets.xcassets in Resources */,
-				5B18A2D31E565E9A0094D483 /* Main.storyboard in Resources */,
+				5B89D1811E56709700A4C56A /* LaunchScreen.storyboard in Resources */,
+				5B89D17A1E56706300A4C56A /* Info.plist in Resources */,
+				5B89D1781E56706300A4C56A /* Assets.xcassets in Resources */,
+				5B89D1821E56709700A4C56A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,29 +143,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B18A2E41E56694F0094D483 /* ViewControllerB.swift in Sources */,
-				5B18A2E01E565F260094D483 /* ViewControllerA.swift in Sources */,
-				5B18A2CE1E565E9A0094D483 /* AppDelegate.swift in Sources */,
+				5B89D1771E56706300A4C56A /* AppDelegate.swift in Sources */,
+				5B89D17C1E56706300A4C56A /* ViewControllerB.swift in Sources */,
+				5B89D17B1E56706300A4C56A /* ViewControllerA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5B18A2D11E565E9A0094D483 /* Main.storyboard */ = {
+		5B89D17D1E56709700A4C56A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B18A2D21E565E9A0094D483 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5B18A2D61E565E9A0094D483 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B18A2D71E565E9A0094D483 /* Base */,
+				5B89D17E1E56709700A4C56A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5B89D17F1E56709700A4C56A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B89D1801E56709700A4C56A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,9 +267,8 @@
 		5B18A2DD1E565E9A0094D483 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UQMG3546PN;
-				INFOPLIST_FILE = "Storyboard-Init-With-Data/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Storyboard-Instantiate-With-Data/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Storyboard-Init-With-Data";
@@ -278,9 +280,8 @@
 		5B18A2DE1E565E9A0094D483 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UQMG3546PN;
-				INFOPLIST_FILE = "Storyboard-Init-With-Data/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Storyboard-Instantiate-With-Data/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Storyboard-Init-With-Data";
@@ -292,7 +293,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B18A2C51E565E9A0094D483 /* Build configuration list for PBXProject "Storyboard-Init-With-Data" */ = {
+		5B18A2C51E565E9A0094D483 /* Build configuration list for PBXProject "Storyboard-Instantiate-With-Data" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B18A2DA1E565E9A0094D483 /* Debug */,
@@ -301,7 +302,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B18A2DC1E565E9A0094D483 /* Build configuration list for PBXNativeTarget "Storyboard-Init-With-Data" */ = {
+		5B18A2DC1E565E9A0094D483 /* Build configuration list for PBXNativeTarget "Storyboard-Instantiate-With-Data" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B18A2DD1E565E9A0094D483 /* Debug */,
